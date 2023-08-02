@@ -55,12 +55,12 @@ async def start(client,message):
 	except:
 	    await message.reply_text(text =f"""
 	Hello {wish} {message.from_user.first_name }
-	__I am file renamer bot, Please sent any telegram 
-	**Document Or Video** and enter new filename to rename it__
+	__I am file renamer bot by @itz_sahil_official🥀, Please sent any telegram 
+	**Document Or Video** and enter new filename to rename it✨__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/LNtechnical") ]  ]))
+	 [[ InlineKeyboardButton("❤️‍🔥 ᴍʏ ᴄʜᴀɴɴᴇʟ" ,url="https://t.me/Sahil_Official_Here") ], 
+	[InlineKeyboardButton("🖤 ᴍʏ ᴄʀᴇᴀᴛᴏʀ", url="https://t.me/itz_sahil_official") ]  ]))
 	    return
 	if id:
 	        if id == procode:
@@ -78,7 +78,7 @@ async def send_doc(client,message):
        		await message.reply_text("**__You are not subscribed my channel__** ",
        		reply_to_message_id = message.id,
        		reply_markup = InlineKeyboardMarkup(
-       		[ [ InlineKeyboardButton("Support 🇮🇳" ,url=f"https://t.me/{update_channel}") ]   ]))
+       		[ [ InlineKeyboardButton("ᴍʏ ᴄʜᴀɴɴᴇʟ" ,url=f"https://t.me/{update_channel}") ]   ]))
        		return
        try:
            bot_data = find_one(int(botid))
