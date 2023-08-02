@@ -10,21 +10,21 @@ async def upgrade(bot,update):
 	
 	**VIP 1 ** 
 	Daily  Upload  limit 50GB
-	Price Rs 1231  🇮🇳/🌎 15$  per Year 
+	Price Rs 80  🇮🇳/🌎 1$  per month
 	
 	**VIP 2 **
 	Daily Upload limit Unlimited 
-	Price Rs  2051  🇮🇳/🌎 25$  per Year
+	Price Rs  2  🇮🇳/🌎 $  per month
 	
 	
-	Pay Using Upi I'd ```9480251952@paytm```
+	Pay Using Upi I'd ```given by``` @itz_sahil_official
 	
 	After Payment Send Screenshots Of 
         Payment To Admin"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mrlokaman")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://www.paypal.me/lokamanchendekar"),
-        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/los89jy0")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/itz_sahil_official")], 
+        			[InlineKeyboardButton("PayPal 🌎",url = "https://t.me/itz_sahil_official"),
+        			InlineKeyboardButton("Paytm",url = "https://t.me/sahil_official_here/79")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -36,19 +36,19 @@ async def upgradecm(bot,message):
 	
 	**VIP 1 ** 
 	Daily  Upload  limit 50GB
-	Price Rs 1231  🇮🇳/🌎 15$  per Year 
+	Price Rs  🇮🇳/🌎 $  per month
 	
 	**VIP 2 **
 	Daily Upload limit Unlimited
-	Price Rs  2051  🇮🇳/🌎 25$  per Year
+	Price Rs   🇮🇳/🌎 $  per month
 	
 	
-	Pay Using Upi I'd ```9480251952@paytm```
+	Pay Using Upi I'd ```given by``` @itz_sahil_official
 	
 	After Payment Send Screenshots Of 
         Payment To Admin"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mrlokaman")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://www.paypal.me/lokamanchendekar"),
-        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/los89jy0")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/itz_sahil_official")], 
+        			[InlineKeyboardButton("PayPal 🌎",url = "https://t.me/itz_sahil_official"),
+        			InlineKeyboardButton("Paytm",url = "https://t.me/sahil_official_here/79")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
